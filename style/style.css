@@ -9,3 +9,159 @@
     src: url("../fonts/Roboto-Medium.ttf");
     font-weight: 500;
 }
+
+body {
+    font-family: "roboto400" sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+    padding-top: 74px;
+    padding-bottom: 146px;
+}
+
+.link {
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link.active {
+    font-weight: 500;
+    color: #34547A;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 42px;
+}
+
+.nav {
+    margin-bottom: 140px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin-bottom: 37px;
+}
+
+.discription {
+    color: #727272;
+    width: 540px;
+    margin-bottom: 55px;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background-color:#34547A;
+    padding: 19px 41px 20px 41px;
+ }
+
+.discription.page {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.about {
+   padding: 116 0 95 0 ;
+}
+
+.boxes {
+    background: #34547A;
+    padding: 100px 0;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box-text {
+    display: inline-block;
+    vertical-align: top;
+    color: #FFFFFF;
+    padding-top: 3px;
+    margin-left: 20px;
+}
+
+.box-title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+
+.box-discription {
+    line-height: 16px;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 45px;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.video {
+    padding: 95px 0 100px 0;
+    background-color: #EEEFF1;
+}
+
+.youtube {
+    width: 1110px;
+    height: 600px;
+}
+
+.discription.margin {
+    margin-bottom: 52px;
+}
+
+.footer {
+    padding: 47px 0 46px 0;
+    background-color: #34547A;
+    color: #FFFFFF;
+}
+
+.below {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 21px;
+}
